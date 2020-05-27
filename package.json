@@ -1,0 +1,13 @@
+{
+  "name": "v-repositories",
+  "version": "0.0.1",
+  "author": "Alexey <alex.esprit@gmail.com>",
+  "description": "A small script to get projects written in V",
+  "dependencies": {
+    "@octokit/rest": "17.1.4"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "license": "MIT"
+}
