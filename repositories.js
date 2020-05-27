@@ -16,7 +16,7 @@ async function getAllRepositories() {
         });
         const { total_count, items } = data;
 
-        entries = entries.concat(items);
+        entries.push(...items);
 
         if (total_count - pageNumber * perPage <= 0) {
             break;
