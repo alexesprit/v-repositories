@@ -40,8 +40,8 @@ async function main() {
         let license = 'no license';
 
         if (entry.license) {
-            // license = entry.license.key;
-            continue;
+            license = entry.license.key;
+            // continue;
         }
 
         console.log(`${full_name} :: ${license}`);
