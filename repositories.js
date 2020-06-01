@@ -11,7 +11,7 @@ async function getAllRepositories() {
 
     while (true) {
         const { data } = await octokit.search.repos({
-            q: 'language:V', sort: 'starts', order: 'desc',
+            q: 'language:V', sort: 'stars', order: 'desc',
             per_page: perPage, page: pageNumber
         });
         const { total_count, items } = data;
