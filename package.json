@@ -4,7 +4,7 @@
   "author": "Alexey <alex.esprit@gmail.com>",
   "description": "A small script to get projects written in V",
   "dependencies": {
-    "@octokit/rest": "17.1.4"
+    "@octokit/rest": "19.0.13"
   },
   "engines": {
     "node": ">=10.0.0"
